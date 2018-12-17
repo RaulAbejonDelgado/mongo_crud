@@ -31,9 +31,6 @@ public class Main {
 
             opcionesPrincipales();
 
-
-
-
         } catch (Exception e) {
             e.printStackTrace();
         }
