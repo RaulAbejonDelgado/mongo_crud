@@ -131,7 +131,7 @@ public class LibroDAO {
          */
         System.out.println((lOriginal.getId()));
         System.out.println(lActualizacion.toString());
-        DBCollection collection = MongoConector.getConnectionDbAndCollection(DB, COLLECTION);
+        DBCollection collection = MongoConector.getConnectionDbAndCollection(DB, COLLECTION) ;
         System.out.println(lOriginal.getId());
         System.out.println(lActualizacion);
         System.out.println(lOriginal.toString());
